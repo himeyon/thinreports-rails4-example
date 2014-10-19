@@ -39,6 +39,8 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'pdf-inspector', require: 'pdf/inspector'
+  gem 'pry-rails'
+  gem 'pry-byebug'
 end
 
 # Use ActiveModel has_secure_password
